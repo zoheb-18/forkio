@@ -1,0 +1,300 @@
+.logo{
+    width: 151px;
+    margin-left:80px ;
+}
+a{
+    text-decoration: none;
+    color: #726397;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize; display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:30px ;
+    margin: 20px 25px 0px 270px;
+    font-weight: 900;
+    
+}
+.but{
+    background-color: #726397;
+    width: 150px;
+    font-size: 20px;
+    color: aliceblue;
+    margin: 12px 40px 0px 0px;
+    border-radius: 20px;
+    border-width: 0px;
+    padding: 9px 0px 9px 0px;
+}
+.navibar{
+    padding: 30px 0px 32px;
+    /* position: fixed; */
+}
+.navigestion-bar{
+    display:flex;
+    justify-content: space-around;
+
+/* #navi-continer{ */
+    /* position: fixed; */
+}    
+    
+
+
+.laptop{
+    background-image:url(image/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 80px 0px 80px 0px;
+
+}
+.heading{
+    color:#e3dfed;
+    text-align: center;
+    font-size: 90px;
+    text-transform: capitalize;
+    font-weight:bold;
+    font-style: inherit;
+    margin:0px;
+}
+.headline{
+    color: #726397;
+    text-align: center;
+    margin-top: 0px;
+}
+.info{
+    color:#494647;
+    text-align: center;
+    margin-top: 0px;
+}
+.dow-button{
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #726397;
+    color:aliceblue;
+    font-weight: 700;
+    border-width: 0px;
+    margin-top: 446px;
+}
+.laptop{
+    text-align: center;
+    
+}
+.trial{
+    text-align: center;
+    color: #8C999E;
+    margin-top: 35px;
+}
+.editor-headline{
+    font-size: 55px;
+    text-align: center;
+    color:#635C73;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.editor-breif{
+    text-align: center;
+    color:#494647;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head-here{
+    color:#655368;
+    text-align: center;
+    font-size: 40px;
+    margin-top:40px;
+}
+.editor-continer{
+    text-align: center;
+}
+.social{
+    margin-top: 20px;
+}
+.graph-continer1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    
+    
+}
+.clock{
+    width: 100px;
+}
+.clock1{
+    width: 120px;
+    margin-top: 15px;
+}
+#decor-continer{
+    background-image: url(image/img-decor-01.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.decor{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:30px ;
+  width:100%;
+  text-align: center;
+  padding: 0px 30px 0px 0px;
+  margin-top: 80px;
+}
+
+.head-tag{
+    text-align: center;
+    font-size: 50px;
+    color:#e3dfed;
+    font-weight: 700;
+}
+
+
+.decor-456{
+ display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:30px ;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 30px 0px 0px;
+}
+    
+#decor2{
+    background-image: url(image/img-decor-02.jpg);
+    width: 100%;
+    height: 140vh;
+    padding-top: 20px;
+}
+.pricing-tag{
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 900;
+}
+.students-head{
+    font-size: 25px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.symbol{
+    font-size: 70px;
+    color:#857486;
+}
+.eight{
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: 700;
+}
+.per-month{
+    color:#857486 ;
+    font-weight: 100;
+}
+.personl-licene{
+    font-size: 23px;
+    color: aliceblue;
+    font-weight:lighter;
+}
+.purchase{
+    background-color:#857486 ;
+    color: aliceblue;
+    font-size: 25px;
+    border: 0px;
+    border-radius: 20px;
+    width: 180px;
+    height: 7vh;
+}
+.pricing-row{
+    background-color: #655368;
+    width: 20%;
+    text-align: center;
+    height: 60vh;
+    padding: 10px 0px 10px 0px;
+    margin:30px 0px 0px 10px ;
+    
+}
+.Pricing-continer{
+    display:flex;
+    justify-content: center;
+}
+.pricing-row-3{
+    background-color: #494647;
+    width: 25%;
+    text-align: center;
+    height: 70vh;
+    padding: 20px 0px 10px 0px;
+    margin-left: 10px;
+} 
+.duis{
+    color:#857486 ;
+    padding: 80px 50px 0px 50px ;
+}
+.Subscribe-continer{
+    background-color:#F4F4F4;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    
+}
+.head-Subscribe{
+    color:#655368;
+    font-weight: 700px;
+    margin-left: 30px;
+}
+.email-Subscribe{
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    color: #e3dfed;
+    padding-left: 15px;
+    
+}
+.Subscribe-button{
+    background-color: #726397;
+    font-size: 20px;
+    color: aliceblue;
+    width: 50%;
+    height: 40px;
+    border: 0px;
+    border-radius: 30px;
+}
+.logo-2{
+    width: 151px;
+}
+.logo-line{
+    color: #8C999E;
+}
+.navigation-col{
+    color:#655368;
+    margin-left: 30px;
+}
+.navigation-2{
+    font-size: 20px;
+    color: #726397;
+    list-style: none;
+    
+}
+#navigation-overview{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:15px ;
+    margin: 40px;
+}
+.phone-no{
+    font-size: 40px;
+    font-weight: bold;
+}
+ol{
+    list-style: none;
+}
+.Available-12{
+    color:#8C999E;
+    /* margin-left: 30px; */
+}
+.New-York{
+    margin-left: 35px;
+}
