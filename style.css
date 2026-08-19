@@ -73,7 +73,7 @@ ul li a {
 }
 
 body {
-    padding-top: 90px;
+    padding-top: clamp(70px, 12vw, 100px);
 }
 
 .navigestion-bar{
@@ -84,6 +84,68 @@ body {
     padding: 0 clamp(12px, 4vw, 40px);
     gap: clamp(8px, 2vw, 20px);
     width: 100%;
+    position: relative;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: clamp(10px, 2vw, 20px);
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #726397;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.menu-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle.open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    padding: clamp(12px, 2vw, 20px);
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.nav-links.open {
+    display: flex;
 }    
 
 
@@ -557,24 +619,7 @@ ol{
 /* Mobile Devices (0px - 480px) */
 @media (max-width: 480px) {
     body {
-        padding-top: 100px;
-    }
-
-    .navigestion-bar {
-        flex-direction: column;
-        gap: 8px;
-        padding: 0 clamp(10px, 4vw, 15px);
-    }
-
-    ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: clamp(8px, 2vw, 12px);
-        justify-content: center;
-    }
-
-    ul li a {
-        font-size: clamp(11px, 2vw, 13px);
+        padding-top: 90px;
     }
 
     .oo {
@@ -606,12 +651,7 @@ ol{
 /* Tablets (481px - 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
     body {
-        padding-top: 100px;
-    }
-
-    ul {
-        flex-direction: row;
-        gap: 15px;
+        padding-top: 90px;
     }
 
     .oo {
@@ -651,16 +691,22 @@ ol{
 /* Large Screens (769px and above) */
 @media (min-width: 769px) {
     body {
-        padding-top: 110px;
+        padding-top: 90px;
     }
 
-    ul {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
         flex-direction: row;
-        gap: 25px;
-    }
-
-    ul li a {
-        font-size: clamp(13px, 2vw, 16px);
+        width: auto;
+        gap: clamp(15px, 2.5vw, 25px);
+        padding: 0;
+        background: transparent;
+        border-radius: 0;
+        box-shadow: none;
     }
 
     .oo {
